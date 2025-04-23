@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+echo "*** List bucket ***"
+
+# https://www.gnu.org/software/bash/manual/html_node/Bash-Conditional-Expressions.html#Bash-Conditional-Expressions
+# if the length of the string is zero (-z) for the first positional argument ($1)
+#Check for bucket name
+if [ -z "$1" ]; then
+  echo "There needs to be a bucket name e.g. ./bucket my-bucket-name"
+  exit 1
+fi
+
+BUCKET_NAME=$1
+
+aws s3api list-objects-v2 --bucket $BUCKET_NAME
+
+
