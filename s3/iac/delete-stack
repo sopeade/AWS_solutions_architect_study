@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "*** delete stack ***"
+echo "*** delete stack *** "
 
 STACK_NAME="cfn-s3-simple"
 

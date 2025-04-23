@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "*** deploy s3 bucket ***"
+echo "*** deploy s3 bucket *** "
 
 STACK_NAME="cfn-s3-simple2"
 

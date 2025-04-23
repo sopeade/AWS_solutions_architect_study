@@ -2,10 +2,11 @@
 # Relevant links
 https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.5#winget
 https://docs.aws.amazon.com/powershell/latest/userguide/pstools-getting-set-up-windows.html
-https://docs.aws.amazon.com/powershell/latest/reference/
+https://docs.aws.amazon.com/powershell/latest/reference/   #a powershell guide
+https://docs.aws.amazon.com/cli/latest/   # a bash/cli guide
+https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html  #installing the aws cli
 https://stackoverflow.com/questions/56314710/the-term-conda-is-not-recognized-as-the-name-of-a-cmdlet
-
-
+https://docs.aws.amazon.com/cli/latest/reference/cloudformation/
 Install powershell 7 +
 winget install --id Microsoft.PowerGetGet-HShell --source winget
 
@@ -36,3 +37,6 @@ aws sts get-caller-identity
 # Unable to locate credentials. You can configure credentials by running "aws configure".
 IAM-> users-> create user -> on selecting created user -> security credentials -> Create access key
 command line interface#AWS_Solutions_architect_study
+
+
+iac - Infrastructure as code
