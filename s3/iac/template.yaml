@@ -5,3 +5,6 @@ Resources:
     # https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3-bucket.html
     Type: 'AWS::S3::Bucket'
     # We don't need to supply a Bucket Name as AWS will generate a random name for us
+
+
+    #iac : infrastructure as code
